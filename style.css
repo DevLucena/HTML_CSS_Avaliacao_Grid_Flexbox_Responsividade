@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+    font-family: 'Karla', sans-serif;
+}
+
+@media (max-width:375px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 55px 55px 55px 55px;
+    }
+
+    .parte1 {
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        color: hsl(218, 22%, 67%);
+        padding: 15px 15px 15px 15px;
+    }
+
+    header {
+        margin-top: 15px;
+    }
+
+    h1 {
+        color: hsl(179, 62%, 43%);
+        font-size: 25px;
+    }
+
+    h2 {
+        color: hsl(71, 73%, 54%);
+        font-size: 20px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .p-section1 {
+        color: hsl(204, 43%, 75%);
+        margin: 0px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .parte2 {
+
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        color: hsl(204, 43%, 93%);
+        padding: 15px 15px 15px 15px;
+        background: hsl(179, 62%, 43%);
+        padding-top: 45px;
+    }
+
+
+    h3 {
+        color: hsl(204, 43%, 93%);
+        font-size: 18px;
+        margin: 10px 0px 10px 0px;
+        text-align: justify;
+    }
+
+    strong {
+        font-size: 30px;
+    }
+
+
+    .p-section2 {
+
+        color: hsl(204, 43%, 93%);
+        margin: 0px;
+        /*font-size: 25px;*/
+        text-align: justify;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    input {
+
+        width: 100%;
+        height: 25%;
+        color: white;
+        background-color: hsl(71, 73%, 54%);
+        border: none;
+        font-size: 20px;
+        padding: 10px 100px;
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 25px;
+    }
+
+    .parte3 {
+
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        color: hsl(204, 43%, 93%);
+        padding: 15px 15px 15px 15px;
+        background: hsl(179, 62%, 45%);
+        padding-top: 45px;
+    }
+
+    .p-section3 {
+
+        color: hsl(204, 43%, 93%);
+        margin: 0px;
+        /*font-size: 25px;*/
+        text-align: justify;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media (min-width:376px) {
+
+    .container {
+        display: grid;
+        margin: 10%;
+        min-height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            'parte1 parte1'
+            'parte2 parte3'
+        ;
+        text-align: center;
+        align-content: center;
+        border-radius: 2% 2% 2% 2%;
+        box-shadow: 0px 0px 10px 0px;
+    }
+
+
+    .parte1 {
+
+        grid-area: parte1;
+        color: hsl(218, 22%, 67%);
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        justify-content: center;
+        padding-left: 10%;
+        padding-top: 8%;
+        text-align: justify;
+    }
+
+    h1 {
+        color: hsl(179, 62%, 43%);
+        font-size: 250%;
+    }
+
+    h2 {
+        color: hsl(71, 73%, 54%);
+        font-size: 200%;
+        margin: 2% 0% 2% 0%;
+    }
+
+    .p-section1 {
+        color: hsl(204, 43%, 75%);
+        margin: 0px;
+        font-size: 175%;
+        text-align: justify;
+    }
+
+    .parte2 {
+
+        grid-area: parte2;
+        margin: 10px 0px 0px 0o;
+        background: hsl(179, 62%, 43%);
+        color: hsl(204, 43%, 93%);
+        border-radius: 0px 0px 0px 10px;
+        padding-top: 10%;
+        padding-left: 50px;
+    }
+
+    h3 {
+        color: hsl(204, 43%, 93%);
+        font-size: 25px;
+        margin: 10px 0px 10px 0px;
+        text-align: justify;
+    }
+
+    strong {
+        font-size: 30px;
+    }
+
+    .p-section2 {
+
+        color: hsl(204, 43%, 93%);
+        margin: 0px;
+        /*font-size: 25px;*/
+        text-align: justify;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    input {
+        background-color: hsl(71, 73%, 54%);
+        border: none;
+        padding: 10px 100px;
+        font-size: 30px;
+        border-radius: 10px 10px 10px 10px;
+        align-items: center;
+        text-align: justify;
+        justify-items: auto;
+        color: white;
+        margin-top: 25px;
+    }
+
+    .parte3 {
+
+        grid-area: parte3;
+        background: hsl(179, 62%, 45%);
+        border-radius: 0px 0px 10px 0px;
+        padding-top: 10%;
+        padding-left: 10%;
+        text-align: justify;
+    }
+
+    .p-section3 {
+
+        color: hsl(204, 43%, 93%);
+        margin: 0px;
+        /*font-size: 25px;*/
+        text-align: justify;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+}

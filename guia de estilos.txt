@@ -1,0 +1,18 @@
+-> Layout
+  Mobile: 375px
+  Desktop: 1440px
+
+  --> Cores Neutras
+    Light Gray: hsl(204, 43%, 93%)
+    Grayish Blue: hsl(218, 22%, 67%)
+
+OK-------------------------------------------------------------------------
+-> Tipografia
+  --> Fonte
+    Family: Karla (https://fonts.google.com/specimen/Karla)
+    Weights: 400, 700
+
+-> Colors
+  --> Cores Primárias
+    Cyan: hsl(179, 62%, 43%)
+    Bright Yellow: hsl(71, 73%, 54%)
